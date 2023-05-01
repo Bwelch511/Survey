@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    
+<body >
+<h1 id="title">Best Pizza Survey</h1>
+<p id="description">What is your favorite Pizza!?</p>
+<form id="survey-form">
+  <label for="name" id= "name-label">Name:</label>
+      <input type="text" id="name" name="name"  placeholder="Name" required>
+      <br><br>
+  <label for="email" id= "email-label">Email:</label>   
+      <input type="email" id="email" name="email" placeholder="email@gmail.com"required>
+      <br><br>
+     <label for="number" id= "number-label">Age:</label>
+     <input type="number" id="number" name="age" placeholder="0-99" min="0" max="99" required>
+     <br><br>
+     <label for="dropdown" id="crust"><strong>Type of crust</label> 
+     <select id="dropdown">
+         <option value="select one"></option>
+        <option value="Deep Dish">Deep Dish</option>
+        <option value="Thin Crust">Thin Crust</option>
+        <option value="Stuffed Crust">Stuffed Crust</option>
+        <option value="Neapolitan">Neapolitan</option>
+        <option value="Other">Other</option>
+        
+</select>
+<br><br>
+<label><strong>Sauce Type:
+    <input type= "radio" name= "Marinara-Alfredo" value="Marinara">Marinara
+    <input type= "radio" name= "Marinara-Alfredo" value="Marinara">Alfredo
+    <input type= "radio" name= "Marinara-Alfredo" value="other">Other
+</label>
+<br><br>
+<label>Toppings<br>
+    <input type= "checkbox" value="Pepperoni">Pepperoni<br>
+    <input type= "checkbox" value="Ham">Ham<br>
+    <input type= "checkbox" value="Sausage">Sausage<br>
+    <input type= "checkbox" value="Olives">Olives<br>
+    <input type= "checkbox" value="Green Peppers">Green Peppers<br>
+    <input type= "checkbox" value="Onion">Onion <br>
+    <input type= "checkbox" value="Anchovies">Anchovies<br>
+</label>
+<br><br>
+<textarea placeholder="Additional info here">
+</textarea>
+<br><br><br>
+<button id="submit">Submit</button>
+</form>
+</body>
+</html>
